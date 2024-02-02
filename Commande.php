@@ -28,11 +28,6 @@ class Commande {
 
 
 
-    try {
-        
-    } catch (Exception $ex) {
-        print_r($ex->getMessage());
-    }
 
 
     public function updateCommandStatus($id, $status) {
